@@ -557,7 +557,8 @@ void ESPLoop() {
 				}
 
 				if(nameESP) {
-					g_overlay->draw_text(pos.x + flWidth + 10, smax.y + (hpESPEnabled ? 10 : 0), D2D1::ColorF(1.f, 1.f, 0), "%s", repInfo.GetName().ToString());
+					auto str = repInfo.GetName().ToWString();
+					g_overlay->draw_text(pos.x + flWidth + 10, smax.y + (hpESPEnabled ? 10 : 0), D2D1::ColorF(1.f, 1.f, 0), "%S", str.c_str());
 				}
 
 				if(isAimbotActive && isPawnVisible && !Locked) {

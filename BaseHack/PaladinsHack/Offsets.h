@@ -1,7 +1,7 @@
-//BLUEFIRE1337 PALADINS SDK - UPDATED 2021-08-19
+//BLUEFIRE1337 PALADINS SDK - UPDATED 2021-09-15
 #pragma once
 
-constexpr auto ENGINE = 0x371E880; // Paladins.exe + ENGINE -> UEngine 
+constexpr auto ENGINE = 0x3744C50; // Paladins.exe + ENGINE -> UEngine 
 
 constexpr auto LOCALPLAYER = 0x6D8; // UEngine -> ULocalPlayer
 constexpr auto CONTROLLER = 0x68; // ULocalPlayer -> APlayerController
