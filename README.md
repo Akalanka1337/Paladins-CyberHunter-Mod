@@ -1,5 +1,5 @@
 # Paladins-CyberHunter-Mod
-Paladins Cheat ( https://paladins.quora.com )
+Paladins Discussions ( https://paladins.quora.com )
 
 
 
